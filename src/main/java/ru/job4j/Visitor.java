@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 class Visitor extends SimpleFileVisitor<Path> {
+
     private List<Path> fileList = new ArrayList<>();
     private Predicate<Path> predicate;
 

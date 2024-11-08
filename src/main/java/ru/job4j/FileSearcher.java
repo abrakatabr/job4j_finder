@@ -9,6 +9,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class FileSearcher {
+
     private File startDir;
     private String fileName;
     private String searchType;

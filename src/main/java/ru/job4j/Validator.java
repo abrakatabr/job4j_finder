@@ -9,6 +9,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class Validator {
+
     private Map<String, String> parameters = new HashMap<>();
     private StringBuilder massage;
 
